@@ -1,11 +1,11 @@
 {
+    "name": "@unite-2/codec.ts",
     "private": true,
     "type": "module",
     "scripts": {
         "dev": "vite --cors",
         "build": "vite build",
-        "preview": "vite preview",
-        "start": "node index.mjs"
+        "preview": "vite preview"
     },
     "browserslist": [
         "last 1 chrome version",
