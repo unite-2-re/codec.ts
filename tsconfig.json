@@ -1,15 +1,7 @@
 {
-    "include": ["./src/**/*", "./unite/**/*"],
-    "exclude": ["./node_modules", "../node_modules"],
+    "include": ["./src/**/*"],
+    "exclude": ["./test", "./node_modules", "../node_modules"],
     "compilerOptions": {
-        "types": ["./global.d.ts"],
-        "paths": {
-            "@": ["./"],
-            "@us": ["./src/"],
-            "@src": ["./src/"],
-            "@unite": ["./unite/"],
-            "@assets": ["./assets/"]
-        },
         "baseUrl": "./",
         "composite": true,
         "lib": ["dom", "esnext", "webworker"],
