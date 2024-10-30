@@ -11,6 +11,7 @@
         "last 1 chrome version",
         "last 1 firefox version"
     ],
-    "dependencies": {
+    "devDependencies": {
+        "vite-plugin-external": "^4.3.1"
     }
 }
